@@ -1,6 +1,12 @@
-# Compiled files
-*.tfstate
-*.tfstate.backup
+# Node.js
+node_modules/
+dist/
+.env
+.DS_Store
 
-# Module directory
-.terraform/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
