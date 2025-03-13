@@ -1,30 +1,65 @@
-# Ticket Sis
+# Ticket Manager - Sistema de Gerenciamento de Chamados
 
 ## Descrição
-O Ticket Sis é um sistema de abertura de chamados que permite aos usuários gerenciar chamados de forma eficiente, utilizando suas credenciais corporativas.
 
-## Funcionalidade de Login
-Como usuário do Ticket Sis, você pode realizar o login no sistema para acessar suas funcionalidades, seguindo os critérios de aceite especificados.
+O Ticket Manager é um sistema de gerenciamento de chamados desenvolvido para centralizar e otimizar o atendimento a solicitações e problemas dos usuários. Com um fluxo automatizado e estruturado, ele melhora a visibilidade dos chamados, reduz atrasos e aumenta a eficiência no suporte.
 
-### Critérios de Aceite
-- **Tela de Login**: Ao acessar o Ticket Sis pela WEB, a tela de login será exibida como a primeira tela do sistema.
-- **Autenticação**: O usuário utilizará e-mail e senha para acessar o Ticket Sis, e um token será enviado para seu e-mail corporativo.
-- **Validação de Token**: O usuário deverá digitar o token recebido por e-mail para ser direcionado à tela inicial da aplicação.
-- **Feedback de Erro**: Se o token estiver incorreto, será exibida a mensagem “Token incorreto, tente novamente”.
-- **Expiração de Token**: Se o token expirar após 5 minutos, será exibida a mensagem “Token expirado, reenvie o token”.
-- **Reenvio de Token**: O usuário poderá clicar em “Reenviar token” para solicitar um novo token.
+## Objetivos
 
-## Estrutura do Projeto
-- `src/`: Contém o código fonte do projeto.
-- `docs/`: Documentação e protótipos da interface.
-- `tests/`: Testes para as funcionalidades.
+### Objetivo Geral
 
-## Como Contribuir
-1. Faça um fork deste repositório.
-2. Crie uma nova branch: `git checkout -b minha-nova-feature`
-3. Faça suas alterações e commit: `git commit -m 'Adicionando nova feature'`
-4. Envie para o repositório remoto: `git push origin minha-nova-feature`
-5. Abra um Pull Request.
+Planejar e desenvolver um sistema de software para centralizar e otimizar o gerenciamento de chamados, oferecendo uma solução eficiente que melhore o atendimento às solicitações e problemas relatados pelos usuários.
+
+### Objetivos Específicos
+
+- Gestão de chamados
+- Sistema de priorização
+- Atribuição eficiente de chamados
+- Geração de relatórios e métricas
+- Segurança e confidencialidade
+- Interface acessível e intuitiva
+
+## Funcionalidades Principais
+
+- Abertura, acompanhamento e encerramento de chamados
+- Classificação de chamados por urgência e impacto
+- Atribuição de responsáveis com notificações em tempo real
+- Geração de relatórios analíticos
+- Proteção de informações dos usuários
+- Interface amigável e adaptável
+
+## Requisitos do Sistema
+
+### Requisitos Funcionais
+
+- RF-01: Abertura de chamados
+- RF-02: Acompanhamento de status
+- RF-03: Classificação de chamados
+- RF-04: Atribuição de responsáveis
+- RF-05: Comentários e atualizações
+- RF-06: Autenticação de usuários
+- RF-07: Busca e filtragem de chamados
+- RF-08: Geração de relatórios
+- RF-09: Encerramento e avaliação
+- RF-10: Anexação de arquivos
+
+### Requisitos Não Funcionais
+
+- RNF-01: Disponibilidade de 99,9%
+- RNF-02: Integração com ferramentas de comunicação
+- RNF-03: Tempo de carregamento máximo de 4 segundos
+- RNF-04: Autenticação de dois fatores (2FA)
+- RNF-05: Compatibilidade com principais navegadores
+
+## Equipe do Projeto
+
+- Ramon Bastos - Product Owner
+- Caroline Viana - Tech Lead
+- Guilherme Freire - Analista de Eficiência e Processos
+- Mateus Siqueira - Desenvolvedor FullStack
+- Sarah Jardim - Estratégia de Performance e Relatórios
+
 
 ## Licença
-Este projeto é licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+Veja o arquivo LICENSE.md para mais detalhes.
