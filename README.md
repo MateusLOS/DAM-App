@@ -1,4 +1,4 @@
-# MovieRecommender – Aplicativo de Recomendações de Filmes e Séries
+# Recomendou – Aplicativo de Recomendações de Filmes e Séries
 
 ## Descrição
 
