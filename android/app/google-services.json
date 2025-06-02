@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1094345893699",
+    "project_id": "recomendou-7067d",
+    "storage_bucket": "recomendou-7067d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094345893699:android:a179805b29a04177fb31f6",
+        "android_client_info": {
+          "package_name": "com.example.recomendou_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXsrYsyVYB59S3Tg4R0ZQLy4nJVzG663I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
