@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O **MovieRecommender** é um aplicativo móvel focado em indicações personalizadas de filmes e séries. Baseado em algoritmos de recomendação, o app analisa preferências, histórico de avaliações e interações dos usuários para sugerir conteúdos alinhados aos seus gostos. Além disso, permite gerenciar listas de assistidos e favoritos de forma intuitiva.
+O **Recomendou** é um aplicativo móvel focado em indicações personalizadas de filmes e séries. Baseado em algoritmos de recomendação, o app analisa preferências, histórico de avaliações e interações dos usuários para sugerir conteúdos alinhados aos seus gostos. Além disso, permite gerenciar listas de assistidos e favoritos de forma intuitiva.
 
 ## Contextualização
 
