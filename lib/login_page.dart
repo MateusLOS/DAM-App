@@ -5,6 +5,8 @@ import 'package:recomendou_flutter/GenreSelectionPage.dart';
 import 'password_recovery_page.dart';
 
 class LoginPage extends StatefulWidget {
+  const LoginPage({super.key});
+
   @override
   _LoginPageState createState() => _LoginPageState();
 }
@@ -166,9 +168,6 @@ class _LoginPageState extends State<LoginPage> {
 
             ElevatedButton(
               onPressed: _isLoading ? null : _loginUser,
-              child: _isLoading
-                  ? const CircularProgressIndicator(color: Colors.black)
-                  : const Text('Entrar', style: TextStyle(fontSize: 16, color: Colors.black)),
               style: ElevatedButton.styleFrom(
                 minimumSize: const Size(double.infinity, 50),
                 shape: RoundedRectangleBorder(
@@ -176,6 +175,9 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 backgroundColor: const Color(0xFFE35128),
               ),
+              child: _isLoading
+                  ? const CircularProgressIndicator(color: Colors.black)
+                  : const Text('Entrar', style: TextStyle(fontSize: 16, color: Colors.black)),
             ),
             const SizedBox(height: 10),
 
@@ -183,16 +185,16 @@ class _LoginPageState extends State<LoginPage> {
               onPressed: () {
                 Navigator.pop(context);
               },
-              child: const Text(
-                'Não possui conta? Cadastre-se',
-                style: TextStyle(fontSize: 16, color: Colors.black),
-              ),
               style: ElevatedButton.styleFrom(
                 minimumSize: const Size(double.infinity, 50),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20),
                 ),
                 backgroundColor: const Color(0xFFE35128),
+              ),
+              child: const Text(
+                'Não possui conta? Cadastre-se',
+                style: TextStyle(fontSize: 16, color: Colors.black),
               ),
             ),
           ],

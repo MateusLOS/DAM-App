@@ -9,9 +9,9 @@ abstract class AppException implements Exception {
 }
 
 class AuthException extends AppException {
-  const AuthException({required String message}) : super(message: message);
+  const AuthException({required super.message});
 }
 
 class NetworkException extends AppException {
-  const NetworkException({required String message}) : super(message: message);
+  const NetworkException({required super.message});
 }

@@ -47,6 +47,8 @@ class MyApp extends StatelessWidget {
 
 // Tela de cadastro
 class RegistrationPage extends StatefulWidget {
+  const RegistrationPage({super.key});
+
   @override
   State<RegistrationPage> createState() => _RegistrationPageState();
 }

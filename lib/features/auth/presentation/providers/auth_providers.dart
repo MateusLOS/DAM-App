@@ -72,7 +72,7 @@ final registerUseCaseProvider = Provider<RegisterUseCase>((ref) {
   return RegisterUseCase(authRepository: ref.read(authRepositoryProvider));
 });
 
-// Provider para o AuthRepository
+
 final authRepositoryProvider = Provider<AuthRepository>((ref) {
-  return AuthRepositoryImpl(dataSource: FirebaseAuthDataSource());
+  return AuthRepositoryImpl(dataSource: FirebaseAuthDataSource(), apiClient: ApiClient()); // Passe o ApiClient
 });

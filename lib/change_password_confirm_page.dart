@@ -3,6 +3,8 @@ import 'package:recomendou_flutter/main.dart'; // Importando a tela de cadastro
 import 'GenreSelectionPage.dart'; // Importando a tela de seleção de gêneros
 
 class ChangePasswordConfirmPage extends StatefulWidget {
+  const ChangePasswordConfirmPage({super.key});
+
   @override
   _ChangePasswordConfirmPageState createState() =>
       _ChangePasswordConfirmPageState();
@@ -70,7 +72,6 @@ class _ChangePasswordConfirmPageState extends State<ChangePasswordConfirmPage> {
                   MaterialPageRoute(builder: (context) => GenreSelectionPage()),
                 );
               },
-              child: Text('Entrar', style: TextStyle(fontSize: 16, color: Colors.black)),
               style: ElevatedButton.styleFrom(
                 minimumSize: Size(double.infinity, 50),
                 shape: RoundedRectangleBorder(
@@ -78,6 +79,7 @@ class _ChangePasswordConfirmPageState extends State<ChangePasswordConfirmPage> {
                 ),
                 backgroundColor: Color(0xFFE35128), // Cor do botão (laranja)
               ),
+              child: Text('Entrar', style: TextStyle(fontSize: 16, color: Colors.black)),
             ),
             SizedBox(height: 20),
 

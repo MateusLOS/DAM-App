@@ -133,8 +133,8 @@ class _GenreSelectionPageState extends State<GenreSelectionPage> {
             right: 16,
             child: FloatingActionButton(
               onPressed: _goToRecommendations,
-              child: const Icon(Icons.arrow_forward),
               tooltip: 'Avançar',
+              child: const Icon(Icons.arrow_forward),
             ),
           ),
         ],

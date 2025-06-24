@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'change_password_confirm_page.dart'; // Importando a tela de troca de senha concluída
 
 class ChangePasswordPage extends StatefulWidget {
+  const ChangePasswordPage({super.key});
+
   @override
   _ChangePasswordPageState createState() => _ChangePasswordPageState();
 }
@@ -62,7 +64,6 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
                   MaterialPageRoute(builder: (context) => ChangePasswordConfirmPage()),
                 );
               },
-              child: Text('Trocar senha', style: TextStyle(fontSize: 16, color: Colors.black)),
               style: ElevatedButton.styleFrom(
                 minimumSize: Size(double.infinity, 50),
                 shape: RoundedRectangleBorder(
@@ -70,6 +71,7 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
                 ),
                 backgroundColor: Color(0xFFE35128), // Cor do botão (laranja)
               ),
+              child: Text('Trocar senha', style: TextStyle(fontSize: 16, color: Colors.black)),
             ),
           ],
         ),

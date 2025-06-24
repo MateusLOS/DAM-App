@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class PasswordRecoveryPage extends StatefulWidget {
+  const PasswordRecoveryPage({super.key});
+
   @override
   _PasswordRecoveryPageState createState() => _PasswordRecoveryPageState();
 }
@@ -90,9 +92,6 @@ class _PasswordRecoveryPageState extends State<PasswordRecoveryPage> {
 
             ElevatedButton(
               onPressed: _isLoading ? null : _sendRecoveryEmail,
-              child: _isLoading
-                  ? const CircularProgressIndicator(color: Colors.white)
-                  : const Text('Enviar', style: TextStyle(fontSize: 16, color: Colors.black)),
               style: ElevatedButton.styleFrom(
                 minimumSize: const Size(double.infinity, 50),
                 shape: RoundedRectangleBorder(
@@ -100,6 +99,9 @@ class _PasswordRecoveryPageState extends State<PasswordRecoveryPage> {
                 ),
                 backgroundColor: const Color(0xFFE35128),
               ),
+              child: _isLoading
+                  ? const CircularProgressIndicator(color: Colors.white)
+                  : const Text('Enviar', style: TextStyle(fontSize: 16, color: Colors.black)),
             ),
           ],
         ),
