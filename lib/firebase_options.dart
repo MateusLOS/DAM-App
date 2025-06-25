@@ -41,21 +41,21 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB1KsiPfSFyAj3krjXqniKz1TdYpl3oLh4',
-    appId: '1:1094345893699:web:891461261c6963a3fb31f6',
-    messagingSenderId: '1094345893699',
-    projectId: 'recomendou-7067d',
-    authDomain: 'recomendou-7067d.firebaseapp.com',
-    storageBucket: 'recomendou-7067d.firebasestorage.app',
-    measurementId: 'G-36CTVLJ2ZN',
+    apiKey: 'AIzaSyBBh8QGDwSFgGRSmx-pXnILy8UR0bq2mqY',
+    appId: '1:486405857661:web:6ac3b490ee556447762c14',
+    messagingSenderId: '486405857661',
+    projectId: 'recomendou-66796',
+    authDomain: 'recomendou-66796.firebaseapp.com',
+    storageBucket: 'recomendou-66796.firebasestorage.app',
+    measurementId: 'G-MN3LBLKPN3',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAXsrYsyVYB59S3Tg4R0ZQLy4nJVzG663I',
-    appId: '1:1094345893699:android:a179805b29a04177fb31f6',
-    messagingSenderId: '1094345893699',
-    projectId: 'recomendou-7067d',
-    storageBucket: 'recomendou-7067d.firebasestorage.app',
+    apiKey: 'AIzaSyBvhfp4jtqQxDQRNYluSP5Ff45g3YKC5UY',
+    appId: '1:486405857661:android:14d06a81aaf090c3762c14',
+    messagingSenderId: '486405857661',
+    projectId: 'recomendou-66796',
+    storageBucket: 'recomendou-66796.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
@@ -77,12 +77,13 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyB1KsiPfSFyAj3krjXqniKz1TdYpl3oLh4',
-    appId: '1:1094345893699:web:737c32b8de1cf6cbfb31f6',
-    messagingSenderId: '1094345893699',
-    projectId: 'recomendou-7067d',
-    authDomain: 'recomendou-7067d.firebaseapp.com',
-    storageBucket: 'recomendou-7067d.firebasestorage.app',
-    measurementId: 'G-VZ8JMNT6QZ',
+    apiKey: 'AIzaSyBBh8QGDwSFgGRSmx-pXnILy8UR0bq2mqY',
+    appId: '1:486405857661:web:10a790a74c795799762c14',
+    messagingSenderId: '486405857661',
+    projectId: 'recomendou-66796',
+    authDomain: 'recomendou-66796.firebaseapp.com',
+    storageBucket: 'recomendou-66796.firebasestorage.app',
+    measurementId: 'G-HT72VN3WFH',
   );
+
 }
